@@ -1,0 +1,23 @@
+.home {
+    background-color: var(--main-color);
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: white;
+}
+
+
+img {
+    width: 250px;
+}
+
+.home-container {
+    margin-top: 86px;
+    min-height: calc(-106px + 100vh);
+} 
+
+.home{
+    min-height: inherit;
+}

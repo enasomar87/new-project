@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+    background-color: var(--second-color);
+    transition: .6s padding;
+
+}
+
+.active{
+    background-color:  var(--main-color);
+    /* border-radius: 10px; */
+    transition: ease-in-out;
+}

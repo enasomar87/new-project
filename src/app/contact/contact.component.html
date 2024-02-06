@@ -1,0 +1,31 @@
+<div class="contact-container">
+    <div class="mb-4">
+        <div class="pt-3 conatiner">
+            <div class="text-center pt-4">
+                <h2 class="text-uppercase mb-3 fs-1 fw-bolder">conatct section</h2>
+                <div class="d-flex align-items-center justify-content-center mb-3">
+                    <div class="line me-3"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="line ms-3"></div>
+                </div>
+            </div>
+            <form action="" class="w-50 p-3 mx-auto mt-5 ng-untouched ng-pristine ng-valid">
+                <label *ngIf="showLabel ? ' Label' : ''" for="userName"  class="position-relative top-0 __top">userName :</label>
+                <input type="text" (keyup)="onKeyUp($event)" id="userName" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+
+                <label *ngIf="showLabel ? ' Label' : ''" for="userAge"  class="position-relative top-0 __top">userAge : </label>
+                <input type="text"  (keyup)="onKeyUp($event)" id="userAge" placeholder="userAge" name="userAge" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+
+                <label *ngIf="showLabel ? ' Label' : ''" for="userEmail"  class="position-relative top-0 __top">userEmail : </label>
+                <input type="text"  (keyup)="onKeyUp($event)" id="userEmail" placeholder="userEmail" name="userEmail" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+
+                <label *ngIf="showLabel ? ' Label' : ''" for="userPassword"  class="position-relative top-0 __top"> </label>
+                <input type="text"  (keyup)="onKeyUp($event)" id="userPassword" placeholder="userPassword" name="userPassword" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+
+                <button class="btn mt-4 text-white "> send Message </button>
+                
+            </form>
+        </div>
+        
+    </div>
+</div>

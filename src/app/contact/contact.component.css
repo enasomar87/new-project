@@ -1,0 +1,30 @@
+.contact-container {
+    margin-top: 86px;
+    min-height: calc(-106px + 100vh);
+}
+
+.contact{
+
+}
+
+.contact {
+    color: rgb(44, 62, 80);
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: rgb(44, 62, 80);
+}
+
+button {
+    background-color: #1abc9c;
+}
+
+
+
+label {
+    color: var(--main-color);
+    margin-bottom: 7px;
+    transition: .6s top;
+}
